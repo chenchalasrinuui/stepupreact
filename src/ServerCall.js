@@ -1,6 +1,6 @@
 import axios from 'axios'
-const baseUrl='http://localhost:2020/'
-
+//const baseUrl='http://localhost:2020/'
+const baseUrl="https://stepupserver.herokuapp.com/"
 class ServerCall{
 
    static sendGetReq(url){
