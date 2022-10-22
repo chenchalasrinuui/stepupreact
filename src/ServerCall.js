@@ -11,11 +11,11 @@ class ServerCall{
         return axios.post(baseUrl+url,data)
     }
 
-   static sendPutReq(){
-        
+   static sendPutReq(url,data){
+       return axios.put(baseUrl+url,data)
     }
-   static sendDelReq(){
-        
+   static sendDelReq(url,data){
+        return axios.delete(baseUrl+url,data)
     }
 }
 
